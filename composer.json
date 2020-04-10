@@ -1,0 +1,18 @@
+{
+    "name": "devskiller/text-encoder",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-0": {
+            "": "app/"
+        }
+    },
+    "require": {
+        "php": ">=7.2.10",
+        "phpunit/phpunit": "7.5.7",
+        "phpspec/prophecy": "^1.8",
+      "ext-intl": "*"
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
